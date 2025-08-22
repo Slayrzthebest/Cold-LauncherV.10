@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cold Launcher</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      background: #3498db;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/logo.png" alt="Cold Logo">
+  <h1>Bienvenue dans Cold Launcher</h1>
+  <button onclick="alert('Lancement du jeu...')">Jouer</button>
+  <button onclick="alert('Boutique à venir !')">Boutique</button>
+  <button onclick="alert('Infos profil bientôt !')">Mon personnage</button>
+</body>
+</html>
